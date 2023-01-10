@@ -1,0 +1,68 @@
+body{
+    max-width: 1599px;
+}
+.field{
+    display: flex;
+    background-color: #faebd7;
+    position: relative;   
+    height: 100vh;  
+}
+.badminton{
+    width: 33.33%;
+}
+
+img{
+    width:100%;
+}
+
+.bat {
+    width: 200px;
+    position: absolute;
+    top: 170px;
+    left: 200px ;
+    transform-origin:middle;
+    transform: rotate(-30deg);
+     transition: transform .1s ease-in;
+}
+.bat{
+   
+}
+.field:hover .bat{
+    position: relative;
+    transform-origin:middle;
+    transform: rotate(10deg) ;
+}
+.feather {
+    position: absolute;
+    top: 150px;
+    left: 320px;
+    width:100px;
+    transform: rotate(135deg);
+    transition: transform 1s ease-out .2s;
+    
+}
+
+.field:hover .feather {
+    transform: translate(870px) rotate(20deg);
+
+}
+
+.net{
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bat_2 {
+    width: 200px;
+    position: absolute;
+    top: 170px;
+    right: 200px ;
+    transform: rotate(30deg) ;
+    transition: transform .1s ease-in .9s;
+}
+.field:hover .bat_2 {
+    transform: rotate(-15deg);
+   
+
+}
